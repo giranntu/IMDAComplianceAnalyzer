@@ -1,0 +1,16 @@
+
+google-cloud-storage
+vertexai
+sqlalchemy
+psycopg2-binary
+loguru
+pyyaml
+streamlit
+pandas
+pillow
+pyPDF2
+asyncio
+google-api-core
+pytube
+google-cloud-aiplatform
+PyPDF2
