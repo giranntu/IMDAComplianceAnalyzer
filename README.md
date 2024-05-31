@@ -1,15 +1,15 @@
-# IMDA Compliance Analyzer
+# Video Compliance Analyzer
 
-The IMDA Compliance Analyzer is a sophisticated tool designed to ensure that your video content adheres to the standards and regulations established by the Infocomm Media Development Authority (IMDA) in Singapore. It uses advanced artificial intelligence and machine learning techniques to scrutinize video content for potential compliance issues across various categories.
+The Video Compliance Analyzer is a sophisticated tool designed to ensure that your video content adheres to the standards and regulations. It uses advanced artificial intelligence and machine learning techniques to scrutinize video content for potential compliance issues across various categories.
 
 ## Features
 
-- **Comprehensive Analysis**: Scrutinizes video content according to IMDA Film Classification Guidelines.
+- **Comprehensive Analysis**: Scrutinizes video content according to Film Classification Guidelines.
 - **Issue Detection**: Identifies compliance issues related to themes, violence, sex, nudity, language, drug use, and horror.
 - **Insights and Suggestions**: Offers detailed insights and recommendations for content adjustment to meet compliance standards.
 - **Flexible Input Options**: Supports video input through YouTube URLs or direct video file uploads.
 - **Detailed Reporting**: Generates structured reports detailing timecodes, categories, and descriptions of identified issues.
-- **Rating Suggestions**: Proposes a content rating for the video based on IMDA classification codes (G, PG, PG13, NC16, M18, R21).
+- **Rating Suggestions**: Proposes a content rating for the video based on classification codes (G, PG, PG13, NC16, M18, R21).
 
 ## Prerequisites
 
@@ -23,7 +23,7 @@ The IMDA Compliance Analyzer is a sophisticated tool designed to ensure that you
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/imda-compliance-analyzer.git
+    git clone https://github.com/giranntu/imda-compliance-analyzer.git
     ```
 
 2. Install the required dependencies:
@@ -44,7 +44,7 @@ The IMDA Compliance Analyzer is a sophisticated tool designed to ensure that you
 
 2. Open the application in a web browser at http://localhost:8501.
 
-3. Select the video source (YouTube URL or upload a video file) and upload the IMDA Film Classification Guidelines PDF.
+3. Select the video source (YouTube URL or upload a video file) and upload the Film Classification Guidelines PDF.
 
 4. Analyze the video by clicking the "Process Video" button.
 
@@ -52,7 +52,7 @@ The IMDA Compliance Analyzer is a sophisticated tool designed to ensure that you
 
 ## Deployment
 
-Deploy the IMDA Compliance Analyzer to Google Cloud Run with the following steps:
+Deploy the Video Compliance Analyzer to Google Cloud Run with the following steps:
 
 1. Build the Docker image:
     ```bash
